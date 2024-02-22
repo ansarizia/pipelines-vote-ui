@@ -1,5 +1,5 @@
 # Using official python runtime base image
-FROM python:3.13.0a4-slim
+FROM python:latest
 
 # Install our requirements.txt
 ADD requirements.txt /opt/app-root/src/requirements.txt
